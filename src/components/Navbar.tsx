@@ -1,8 +1,8 @@
-import { AppBar, Toolbar, Button, Box, Container, IconButton, Drawer, List, ListItem, ListItemButton, ListItemText, Menu, MenuItem } from '@mui/material';
+import { AppBar, Toolbar, Button, Box, Container, IconButton, Drawer, List, ListItem, ListItemButton, ListItemText, Menu, MenuItem, Typography } from '@mui/material';
 import { Menu as MenuIcon, Phone, User } from 'lucide-react';
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-
+import SubhatathraCorporateLogo from '../assets/SubhatathraCorporateLogo.jpeg'
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [tourPackageAnchor, setTourPackageAnchor] = useState<null | HTMLElement>(null);
@@ -88,13 +88,24 @@ const Navbar = () => {
               }}
             >
               <img
-                src="https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=300"
-                alt="Subhayathra Tours & Travels"
+                src={SubhatathraCorporateLogo}
+                alt="Subhayathra"
                 style={{
                   height: '55px',
                   objectFit: 'contain'
                 }}
               />
+              <Typography
+                
+                sx={{
+                  fontWeight: 600,
+                  color: '#ff6b35',
+                  fontSize:"26px",
+                  ml:"20px"
+                }}
+              >
+                Subha Yathra Services
+              </Typography>
             </Box>
 
             <Box sx={{ display: { xs: 'none', lg: 'flex' }, alignItems: 'center', gap: 0 }}>

@@ -85,7 +85,7 @@ const About = () => {
                 fontSize: '1.05rem'
               }}
             >
-              For over 15 years, Subhayathra Services has been dedicated to creating meaningful and enriching travel experiences. We specialize in devotional tours, pilgrimage packages, and customized travel solutions across India.
+              For over 15 years, Subha Yathra Services has been dedicated to creating meaningful and enriching travel experiences. We specialize in devotional tours, pilgrimage packages, and customized travel solutions across India.
             </Typography>
             <Typography
               variant="body1"

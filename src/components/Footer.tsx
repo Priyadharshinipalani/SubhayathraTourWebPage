@@ -27,7 +27,7 @@ const Footer = () => {
                 WebkitTextFillColor: 'transparent'
               }}
             >
-              Subhayathra Tour & Travels
+              Subha Yathra Services
             </Typography>
             <Typography variant="body2" sx={{ color: 'rgba(255,255,255,0.7)',width:"300px", mb: 3, lineHeight: 1.7 }}>
               Offering top class quality and meaningful devotional tours for the past fifteen years. Tours crafted with love, care, understanding and professionalism.
@@ -165,7 +165,7 @@ const Footer = () => {
               <Box sx={{ display: 'flex', gap: 1.5, alignItems: 'flex-start' }}>
                 <MapPin size={18} style={{ marginTop: 2, color: '#ff6b35' }} />
                 <Typography variant="body2" sx={{ color: 'rgba(255,255,255,0.7)' }}>
-                  Subhayathra Tour and Travels, Chennai, Tamil Nadu
+                  Subha Yathra Services, Chennai, Tamil Nadu
                 </Typography>
               </Box>
             </Box>
@@ -181,7 +181,7 @@ const Footer = () => {
           }}
         >
           <Typography variant="body2" sx={{ color: 'rgba(255,255,255,0.6)' }}>
-            © {currentYear} Subhayathra Tour and Travels. All rights reserved.
+            © {currentYear} Subha Yathra Services. All rights reserved.
           </Typography>
         </Box>
       </Container>
